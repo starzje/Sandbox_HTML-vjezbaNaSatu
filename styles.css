@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", Courier, monospace;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+h2 {
+  padding-bottom: 20px;
+}
+img {
+  max-width: 100px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(11, 131, 61);
+}
+
+a:hover {
+  color: blue;
+}
+
+header {
+  margin: 30px;
+  padding-bottom: 30px;
+}
+
+footer {
+  margin-bottom: 40px;
+  color: red;
+}
+
+.main-navigation ul {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slike {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-section {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.hobiji {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.znanja {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.random {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 3em;
+}
